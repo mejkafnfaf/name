@@ -12,6 +12,6 @@ while game:
     if i.type == QUIT:
       game = False
     window.fill((125, 125, 0))
-    window.blit(lost_label, (?,?))
+    window.blit(lost_label, (480,260))
     display.update()
     clock.tick(60)
