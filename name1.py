@@ -5,7 +5,7 @@ clock = time.Clock()
 game = True
 
 font.init()
-lost_label = font.Font('None', 25).render('TEST', True, (255,255,255))
+lost_label = font.Font(None, 25).render('TEST', True, (255,255,255))
 
 while game:
   for i in event.get():
